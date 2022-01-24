@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="images/logo.ico" type="image/x-icon">
+    <title>BBiblio</title>
+    
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <a href="index.html"><img id="logo" src="images/logo.jpg" alt="logo"></a>
+            <h1 class="bigTitle">BBiblio</h1>
+        
+            <!-- NAV BAR HEADER -->
+            <nav class="navbar">
+                <div class="navLinks">
+                    <a href="index.html">ACCUEIL</a>
+                    <a href="reglement.html">REGLEMENT</a>
+                    <a href="#">ESPACE AUTEUR</a>
+                    <a href="contact.html">NOTRE MAISON</a>
+                </div>
+            </nav>
+        </header>
+        
+<!-- ================================================================== -->
+   
+        <section class="noticeAuteur">
+            <h1>IMPORTANT</h1>
+            <p>Si votre oeuvre peut concourir pour plusieurs catégories, les administrateurs prendront alors contact avec vous, une œuvre ne pouvant concourir que pour une seule catégorie.</p>
+        </section>
+
+        <section class="pageAuteur" id="formAuteur">
+            <form class="formAuteur">
+                <select class="categorie catAuteur" name="categorie">
+                    <option value="meilleurRomanFrancais" selected="selected">Meilleur Roman Français</option>
+                    <option value="meilleurRomanEtranger">Meilleur Roman Etranger</option>
+                    <option value="meilleurDocu">Meilleur Documentaire</option>
+                    <option value="meilleureBio">Meilleure Biographie</option>
+                </select>
+                <input type="text" name="firstName" required placeholder="Nom de famille"/>
+                <p>Nom de Famille</p>
+                <input type="text" name="lastName" required placeholder="Prénom"/>
+                <p>Prénom</p>
+                <input type="email" name="eMail" required placeholder="Email"/>
+                <p>Email</p>
+                <input type="date" name="dateNaissance"/>
+                <p>Date de Naissance</p>
+                <input type="text" name="adresse" placeholder="Adresse"/>
+                <p>Adresse</p>
+                <input type="number" name="codePostal" placeholder="Code Postal"/>
+                <p>Code Postal</p>
+                <input type="text" name="pays" placeholder="Pays"/>
+                <p>Pays</p>
+                
+                <input name="oeuvrePDF" type="file" accept="application/pdf" />
+                <p class="uploadTxt">Uploader votre oeuvre au format PDF</p>
+                
+                <button type="submit">Envoyer</button>                    
+
+            </form>
+        </section>
+
+
+<!-- ================================================================== -->
+<!-- FOOTER -->
+<!-- FOOTER -->
+
+<footer class="footer-distributed">
+
+    <div class="footer-left">
+
+        <h3>BBiblio<span>Website</span></h3>
+
+        <p class="footer-links">
+            <a href="index.html" class="link-1">Accueil</a>
+            
+            <a href="#">Blog</a>
+
+            <a href="#">About</a>
+            
+            <a href="#">Faq</a>
+            
+            <a href="#">Contact</a>
+        </p>
+
+        <p class="footer-company-name">BBiblio © 2022</p>
+    </div>
+
+    <div class="footer-center">
+
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>42 Boulevard de la République</span> 75011, Paris</p>
+        </div>
+
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>+33 1 43 25 79 46</p>
+        </div>
+
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:contact@bbiblio.com">contact@bbiblio.com</a></p>
+        </div>
+
+    </div>
+
+    <div class="footer-right">
+
+        <p class="footer-company-about">
+            <span>A propos de nous</span>
+            Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+        </p>
+
+        <div class="footer-icons">
+
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+
+        </div>
+
+    </div>
+
+</footer>
+    </div>
+    <script src="js/formulaireJure.js"></script>
+</body>
+</html>
+
+
+
+

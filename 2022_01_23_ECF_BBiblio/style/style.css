@@ -1,0 +1,1221 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+/* font-family: 'Comic Neue', cursive; */
+
+/* Reset margin et padding */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Container principal */
+.wrapper {
+    max-width: 1920px;
+    /* height: 100%; */
+    background-color: #a8a7a6;
+}
+
+/* --------------------------- */
+/* HEADER */
+/* --------------------------- */
+
+header {
+    width: 100%;
+    height: 145px;
+    /* border: 2px solid black; */
+    background-color: #7b3a94;
+}
+
+.navbar {
+    position: relative;
+    margin-left: -150px;
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+}
+
+.bigTitle {
+    display: block;
+    margin-top: -80px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color:coral;
+    letter-spacing: 3px;
+    transition: 1500ms;
+}
+
+/* Animation lettres espacement hovering */
+.bigTitle:hover {
+    color:rgb(220, 198, 31);
+    letter-spacing: 10px;
+}
+
+/* --------------------------- */
+/* INPUT LOGIN */
+/* --------------------------- */
+
+.navbar .login-container {
+    float: right;
+    margin-left: 850px;
+    margin-top: -140px;
+    position: absolute;
+  }
+  
+  .navbar input[type=text], input[type=password] {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    clear: both;
+  }
+  
+  
+  .navbar .login-container button {
+    padding: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 8px;;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color:rgba(205, 13, 13, 0.7);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    -webkit-box-shadow: 5px 5px 10px 5px #242424; 
+    box-shadow: 5px 5px 10px 5px #242424;
+    clear: both;
+  }
+  
+  .navbar .login-container button:hover {
+    background: #ccc;
+  }
+
+/* --------------------------- */
+/* NAVBAR LINKS */
+/* --------------------------- */
+
+.navLinks {
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 720px;
+}
+
+.navLinks a {
+    background-color: rgb(216, 13, 155);
+    display: inline-block;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    margin-top: -1px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+/* --------------------------- */
+/* TITLE */
+/* --------------------------- */
+
+.titleLaureats h1 {
+    text-align: center;
+    position: static;
+    margin: 0 auto;
+
+}
+
+.titleLaureats {
+    text-align: center;
+    color: black;
+    /* color: rgb(19, 40, 228); */
+    margin-top: 15px;
+    margin-right: 300px;
+} 
+
+/* ----------------------------------------- */
+/* CONTAINER IMAGES PRECEDENTS LAUREATS */
+/* ----------------------------------------- */
+
+.containerLaureats {
+    position: relative;
+    width: 750px;
+    height: 750px;
+    /* border: solid black 1px; */
+    margin: 0 auto;
+    /* margin-top: 10px; */
+}
+
+/* Definition Taille Images */
+.newsImg {
+    width: 200px;
+    height: 300px;
+}
+
+/* Style Texte Legendes Laureats */
+.containerLaureats figcaption {
+    color: rgb(84, 6, 60);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.containerLaureats a {
+    display: inline;
+    text-decoration: none;
+}
+
+.amelie {
+    margin-top: 15px;
+    margin-left: 20px;
+} 
+
+.legendAmelie {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.rienMonde {
+    float: right;
+    position:absolute;
+    margin-top: -345px;
+    margin-left: 532px;
+}
+
+.legendRienMonde {
+    margin-left: 550px;
+    position:absolute;
+    margin-top: -20px;
+    clear: both;
+}
+
+.secretMemoire {
+    margin-left: 310px;
+}
+
+.legendSecret {
+    margin-left: 570px;
+    position:absolute;
+    margin-top: 18px;
+    clear: both;
+}
+
+.terreSainte {
+    margin-left: 20px;
+}
+
+.legendTerre {
+    position:absolute;
+    margin-top: 18px;
+    margin-left: 45px;
+}
+
+.laureats2 {
+    margin-top: 50px;
+}
+
+/* ------------------*/
+/* NEWS ASIDE */
+/* ------------------*/
+
+.containerNews {
+    width: 300px;
+    float: left;
+    margin-left: 5px;
+    /* border: 1px solid black; */
+}
+
+.containerNews h2 {
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+    clear: both;
+}
+
+.containerNews h3 {
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    ;
+}
+
+.news1, .news2 {
+    text-align: center;
+    font-family: 'Comic Neue', cursive;
+    margin-top: 8px;
+    clear: both;
+}
+
+/* ---------------------------------------------------- */
+/* PUBLICATIONS RESEAUX SOCIAUX COTE DROIT */
+/* ---------------------------------------------------- */
+
+.publicationsRS {
+    float: right;
+    margin-top: 15px;
+}
+
+.titleRS {
+    color: black;
+    /* color:rgb(19, 40, 228); */
+    margin-left: 90px;
+    /* font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    letter-spacing: normal;
+    clear: both;
+
+}
+
+.iframes {
+    margin-top: 20px;
+}
+
+/* iframe FB */
+.amelieFB {
+    border: 1px solid black;
+    width: 325px; 
+    height: 385px;
+}
+
+/* Twitter */
+.twitter {
+    display: block;
+    width: 325px; 
+    height: 385px;
+    border: 1px solid black;
+}
+
+/* Instagram */
+.insta {
+    display: block;
+    margin-top: 5px;
+    width: 325px; 
+    height: 385px;
+    border: 1px solid black;
+}
+
+/* ------------------------------------*/
+/* BOX ANNONCE SOUMISSION OEUVRES 2022 */
+/* ----------------------------------- */
+
+.soumissionTexte {
+    width: 950px;
+    height: 50px;
+    border: solid black 1px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: rgba(19, 40, 228, 0.3);
+    text-align: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+/* --------------------------- */
+/* FORMULAIRE  */
+/* --------------------------- */
+
+/* Wrapper formulaire */
+.wrapper1 {
+	background-color: rgb(190, 105, 105);
+	width: 600px;
+	margin: 10px auto;
+    margin-top: -50px;
+	height: 280px;
+}
+
+.formTitle {
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    font-family: 'Comic Neue', cursive;
+
+}
+
+
+
+.formulaire input[type=text], input[type=number] {
+	width: 300px;
+	height: 28px;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin-left: 140px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.index input[type=email] {
+    margin-left: 140px;
+}
+
+.formulaire input[type=radio] {
+    margin-left: 50px;
+}
+
+.reglementApprove {
+    margin-top: 20px;
+    margin-left: 20px;
+} 
+
+.typeSoumission {
+    margin-top: 25px;
+}
+
+.typeSoumission p {
+    display: inline;
+    margin-left : -25px;
+}
+
+
+.buttons {
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+.buttons input {
+	margin-top: 8px;
+	margin-bottom: 8px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 12px;
+    background-color:rgba(216, 16, 16, 0.7);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 300ms;
+	}
+
+.buttons input:hover {
+    background-color:rgba(216, 16, 16, 1);
+}
+	
+.form-submit {
+	color: black;
+	background-color: white;
+}
+
+/* --------------------------- */
+/* PAGE MEILLEURN ROMAN */
+/* --------------------------- */
+
+
+#container {
+    width: 500px;
+    height: auto;
+    /* background-color: #ffcc33; */
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+#container h1 {
+    margin-top: 15px;
+    font-size: 20px;
+    color: darkblue;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#first {
+    margin-top: 20px;
+    width: 200px;
+    float: left;
+    height: 300px;
+    position: absolute;
+    z-index: 2;
+}
+
+#first img {
+    width: 200px;
+    height: 300px;
+    transition-duration: 200ms;
+}
+
+#first img:hover {
+    width: 400px;
+    height: 520px;
+}
+
+
+#second {
+    margin-top: 20px;
+    width: 150px;
+    float: right;
+    height: 310px;
+    position: relative;
+    z-index: 0;
+}
+
+#second p, #second h3 {
+    margin-left: -130px;
+    margin-top: 5px;
+}
+
+#third {
+    /* background-color: cyan; */
+    width: 600px;
+    height: 450px;
+    margin: 20px auto 0 0;
+    clear: both;
+}
+
+#third p {
+    margin-top: 12px;
+}
+
+.linkStore {
+    width: 600px;
+}
+
+.linkStore a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(48, 24, 24);
+}
+
+.linkStore a:hover {
+    text-decoration: underline;
+    color: white;
+    margin-top: 3px;
+}
+
+/* --------------------------- */
+/* PAGE REGLEMENT */
+/* --------------------------- */
+
+.reglement {
+    width: 50%;
+    /* height: 615px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto 20px auto;
+    margin-top: 30px;
+}
+
+.reglement h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    ;
+    text-align: center;
+}
+
+.reglement li {
+    margin-top: 40px;
+    line-height: 18px;
+    list-style-type:decimal;
+}
+
+.subList li {
+    margin-left: 30px;
+    list-style-type:lower-alpha;
+}
+
+/* --------------------------- */
+/* CONCOURS PAGE */
+/* --------------------------- */
+
+.concours {
+    width: 950px;
+    height: 600px;
+    margin: 30px auto 0 auto;
+}
+
+
+.concours h1 {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.book2022 {
+    margin-top: 15px;
+}
+
+/* -------------------------------- */
+/* PREMIERE CONNEXION RAPPEL LOGIN */
+/* -------------------------------- */
+
+.soumissionCandidature {
+    width: 650px;
+    height: 600px;
+    margin: 20px auto 25px auto;
+    padding: 5px;
+    border: 2px solid rgba(72, 72, 72, 0.7);
+    -moz-box-shadow: 8px 10px 5px #2e2d2e;
+    -webkit-box-shadow: 8px 10px 5px #2e2d2e;
+    box-shadow: 8px 10px 5px #2e2d2e;
+}
+
+.soumissionCandidature h2 {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+
+/* #textRedirection {
+    margin-top: -50px;
+    font-size: 18px;
+    text-align: center;
+    color: red;
+    display: hidden;
+} */
+
+.sorbonne img {
+    width: 650px;
+    height: 270px;
+    margin: -300px auto 0 630px;
+    position: absolute;
+}
+
+.identifiants {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.identifiants p {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 10px;
+}
+
+
+hr {
+    margin-top: 15px;
+    border: 1px solid lightcoral;
+}
+
+#continue {
+    width: 100px;
+    height: 30px;
+    padding: 3px;
+    font-size: 14px;
+    margin: 30px 0 0 270px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color:rgba(205, 13, 13, 0.7);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+
+#continue:hover {
+    width: 100px;
+    height: 30px;
+    padding: 3px;
+    font-size: 14px;
+    margin: 30px 0 0 270px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color:rgba(63, 145, 22, 0.7);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.changePwd {
+    width: 650px;
+    height: 150px;
+    margin: 50px auto 0 auto;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
+}
+
+.changePwd img {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 220px;
+}
+
+/* REDIRECTION TEXT */
+.redirectionTxt {
+    margin-top: 20px;
+    color: red;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+
+/* HIDDEN AND DISPLAY */
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 5000ms ease-in, visibility 0ms ease-in 5000ms;
+    border: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.visible {
+    visibility: visible;
+    opacity: 100;
+    transition: opacity 1000ms ease-out, visibility 0ms ease-out 1000ms;
+}
+
+.displayNone {
+    display: none;
+}
+
+/* --------------------------- */
+/* PASSWORD CHANGE */
+/* --------------------------- */
+
+.changePwd h3 {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 22px;
+    font-family: 'Comic Neue', cursive;
+}
+
+.textPass {
+    margin-top: 15px;
+    text-align: justify;
+    text-align: center;
+}
+
+.changePwd input[type=password] {
+	width: 300px;
+	height: 28px;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin-left: 140px;
+    margin-top: 20px;
+}
+
+.changePwd button {
+    width: 100px;
+    height: 30px;
+    padding: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color:rgba(205, 13, 13, 0.7);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    -webkit-box-shadow: 5px 5px 10px 5px #909090; 
+    box-shadow: 5px 5px 10px 5px #909090;
+  }
+
+/* --------------------------- */
+/* CONTAINER FORMULAIRE */
+/* --------------------------- */
+
+.wrapperFormulaire {
+    /* border: 1px solid yellow; */
+    width: 650px;
+    height: 650px;
+	margin: 30px auto;
+    background-color: rgba(120, 153, 191, 0.5);
+}
+
+.wrapperFormulaire h3 {
+    text-align: center;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+}
+
+.wrapperFormulaire input[type=text], input[type=number], input[type=email], input[type=date] {
+	width: 300px;
+	height: 28px;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin-left: 140px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.wrapperFormulaire input[type=radio] {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.sexe {
+    margin-top: 20px;
+}
+
+.sexe p {
+	display: inline;
+	margin-left: 6px;
+	}
+
+.categorie {
+    margin-top: 40px;
+    margin-left: 190px;
+    background-color: rgb(97, 150, 223);
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.categorieTitle {
+    margin-top: 20px;
+    margin-left: 120px;
+    text-decoration: underline;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.wrapperFormulaire .buttons input {
+	/* margin-left: 18px; */
+	margin-top: 20px;
+	margin-bottom: 8px;
+	}
+	
+.wrapperFormulaire .form-submit {
+	color: black;
+	background-color: white;
+}
+
+
+/* ---------------------------------------------------- */
+/* NOTRE MAISON  */
+/* ---------------------------------------------------- */
+
+.notreMaison {
+    width: 1000px;
+    height: 1200px;
+    margin: 0 auto;
+    /* border: 3px solid rgb(174, 37, 96); */
+    position: relative;
+}
+
+.notreMaison p {
+    font-family: 'Comic Neue', cursive;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.description {
+    float: right;
+    text-align: justify;
+    font-size: 16px;
+    border: 1px solid black;
+}
+
+/* Formulaire */
+
+.contactForm {
+    margin-top: 15px;
+    margin-left: 180px;
+}
+
+.contactForm input[type=text], input[type=number], input[type=date] {
+        width: 300px;
+        height: 28px;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin-left: 160px;
+        margin-top: 12px;
+        font-size: 16px;
+}
+
+.contactForm input[type=email] {
+    width: 300px;
+    height: 28px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 160px;
+    margin-top: 12px;
+    font-size: 16px;
+}
+
+
+.contactForm textarea {
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-left: 160px;
+    margin-top: 12px;
+    font-size: 16px;
+
+}
+
+.contactForm p {
+    display: inline;
+}
+
+.contactForm button {
+    display: block;
+    width: 100px;
+    height: 30px;
+    padding: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color:rgba(205, 13, 13, 0.7);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    -webkit-box-shadow: 5px 5px 10px 5px #909090; 
+    box-shadow: 5px 5px 10px 5px #909090;
+    margin-top: 30px;
+    margin-left: 270px;
+}
+
+/* --------------------------- */
+/* SLIDE IMAGES */
+/* --------------------------- */
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: 20px auto;
+}
+
+
+.mySlides {
+    display: none;
+}
+
+.notreMaison img {
+    vertical-align: middle;
+    width: 500px;
+    height: 350px;
+    margin-left: 250px;
+}
+
+/* DOTS */
+.dot {
+    margin: 0 2px;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  /* FADE ANIM */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+/* ---------------------------------------------------- */
+/* CONTAINER OEUVRES NOTEES */
+/* ---------------------------------------------------- */
+
+.oeuvresNotees {
+    width: 1500px;
+    height: 800px;
+    margin: 30px auto 0 200px;
+}
+
+.oeuvresNotees h1 {
+    margin-left: 600px;
+}
+
+.oeuvresNotees table {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.oeuvresNotees td {
+    border: 1px solid black;
+    width: auto;
+    height: 50px;
+    text-align: center;
+    background-color: lightgrey;
+    margin-left: 15px;
+    /* font-weight: bold;
+    padding: 5px; */
+}
+
+.oeuvresNotees select {
+    /* border: 1px solid black; */
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    background-color: lightgrey;
+    margin-left: 15px;
+}
+
+.note {
+    width: 150px;
+    background-color: lightgrey;
+}
+
+/* ---------------------------------------------------- */
+/* PAGE AUTEUR */
+/* ---------------------------------------------------- */
+
+.noticeAuteur {
+    width: 800px;
+    height: 50px;
+    margin: 20px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.noticeAuteur h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.noticeAuteur p {
+    margin-top: 20px;
+}
+
+.formAuteur {
+    width: 800px;
+    height: 800px;
+    margin: 90px auto 30px 650px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.catAuteur {
+    display: block;
+    margin: -20px 0 0 320px;
+}
+
+.formAuteur select {
+    display: block;
+    margin: -20px 0 0 200px;
+    border: none;
+}
+
+.pageAuteur input[type=text], input[type=number], input[type=email], input[type=date] {
+    width: 300px;
+    height: 28px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 140px;
+    margin-top: 12px;
+    font-size: 16px;
+}
+
+.formAuteur p {
+    display: inline;
+}
+
+.formAuteur button {
+    display: block;
+    width: 100px;
+    height: 30px;
+    padding: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color:rgba(205, 13, 13, 0.7);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    -webkit-box-shadow: 5px 5px 10px 5px #909090; 
+    box-shadow: 5px 5px 10px 5px #909090;
+    margin-top: 30px;
+    margin-left: 220px;
+}
+
+.uploadTxt {
+    display: block;
+    margin-left: 285px;
+}
+
+.formAuteur input[type=file] {
+    display: block;
+    margin-top: 10px;
+    margin-left: 140px;
+    font-size: 16px;
+    padding: 5px;
+    background-color: lightgrey;
+}
+
+/* --------------------------- */
+/* FOOTER */
+/* --------------------------- */
+footer {
+    width: 100%;
+    background-color: black;
+}
+
+
+.footer-distributed{
+	background: #666;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* Company Name */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+  font-weight:400;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #222;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+  font-weight:400;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  lightseagreen;
+	text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
